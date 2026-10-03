@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Plombier – Devis gratuit, un artisan vous rappelle</title>
+<meta name="description" content="Chauffe-eau, salle de bain, robinetterie, rénovation : appelez et obtenez un devis d'un plombier partenaire avant tout travaux.">
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--text:#14213d;--muted:#5b6678;--brand:#0b6fd6;--brand-d:#0959ad;--accent:#16a34a;--line:#e1e6ee;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1626;--card:#16213a;--text:#eef2fa;--muted:#a3afc4;--brand:#4da3ff;--brand-d:#7bbaff;--accent:#34d27b;--line:#26334f}}
+:root[data-theme="dark"]{--bg:#0e1626;--card:#16213a;--text:#eef2fa;--muted:#a3afc4;--brand:#4da3ff;--brand-d:#7bbaff;--accent:#34d27b;--line:#26334f}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.5;padding-bottom:84px}
+.wrap{max-width:720px;margin:0 auto;padding:0 18px}
+header{padding:28px 0 8px}
+.tag{display:inline-block;font-size:13px;font-weight:600;color:var(--brand);background:color-mix(in srgb,var(--brand) 12%,transparent);padding:4px 10px;border-radius:99px}
+h1{font-size:clamp(26px,7vw,38px);line-height:1.15;margin:14px 0 10px}
+.sub{color:var(--muted);font-size:17px;margin:0 0 20px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:16px 18px;border-radius:14px;font-size:19px;font-weight:700;text-decoration:none;border:0;cursor:pointer}
+.call{background:var(--accent);color:#04210f}
+.call:active{filter:brightness(.92)}
+.alt{background:transparent;color:var(--brand);border:2px solid var(--brand);margin-top:10px;font-size:16px}
+.note{font-size:13px;color:var(--muted);text-align:center;margin:10px 0 0}
+section{padding:26px 0 4px}
+h2{font-size:22px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.card b{display:block;margin-bottom:2px}
+.card span{color:var(--muted);font-size:14px}
+.steps{counter-reset:s;display:grid;gap:10px}
+.step{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.step::before{counter-increment:s;content:counter(s);flex:none;width:30px;height:30px;border-radius:50%;background:var(--brand);color:#fff;font-weight:700;display:grid;place-items:center}
+.step b{display:block}
+.step span{color:var(--muted);font-size:14px}
+form{display:grid;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+label{font-size:14px;font-weight:600}
+select,input{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);font-size:16px;margin-top:4px}
+.send{background:var(--brand);color:#fff;font-size:17px}
+.send:active{background:var(--brand-d)}
+footer{padding:26px 0 10px;font-size:12.5px;color:var(--muted)}
+.bar{position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:var(--card);border-top:1px solid var(--line)}
+.bar .btn{max-width:720px;margin:0 auto}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="tag">Service de mise en relation avec des plombiers</span>
+  <h1>Un plombier rapide et à l'écoute, devis avant les travaux</h1>
+  <p class="sub">Chauffe-eau en panne, salle de bain à refaire, robinet qui fuit ? Parlez à une vraie personne : on comprend votre problème et on vous met vite en contact avec un plombier de votre secteur.</p>
+  <a class="btn call" href="tel:+33756837009">📞 Appeler le 07 56 83 70 09</a>
+  <p class="note">Réponse 24h/24 et 7j/7 · Appel simple, sans engagement</p>
+</header>
+
+<section>
+  <div class="grid">
+    <div class="card"><b>⚡ Réponse 24h/24, 7j/7</b><span>Appelez à toute heure : on vous répond et on vous rappelle vite.</span></div>
+    <div class="card"><b>👤 Une vraie personne</b><span>Pas de robot ni de standard : on vous écoute.</span></div>
+    <div class="card"><b>🔧 Intervention rapide</b><span>Selon la disponibilité des artisans de votre secteur.</span></div>
+    <div class="card"><b>📝 Devis avant travaux</b><span>Vous savez ce que vous payez avant de décider.</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Nos interventions</h2>
+  <div class="grid">
+    <div class="card"><b>Chauffe-eau</b><span>Remplacement, installation</span></div>
+    <div class="card"><b>Salle de bain</b><span>Douche, baignoire, meuble vasque</span></div>
+    <div class="card"><b>Robinetterie</b><span>Remplacement, pose</span></div>
+    <div class="card"><b>Rénovation</b><span>Canalisations, sanitaires, WC</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Comment ça marche</h2>
+  <div class="steps">
+    <div class="step"><div><b>Vous appelez</b><span>Décrivez votre projet en 2 minutes.</span></div></div>
+    <div class="step"><div><b>Un plombier partenaire vous rappelle rapidement</b><span>Il organise un passage rapide ou estime à distance selon votre besoin.</span></div></div>
+    <div class="step"><div><b>Vous recevez un devis</b><span>Remis par l'artisan avant le début des travaux. Vous décidez ensuite.</span></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Vous préférez écrire ?</h2>
+  <form id="f">
+    <label>Type de travaux
+      <select id="t">
+        <option>Chauffe-eau</option><option>Salle de bain</option><option>Robinetterie</option><option>Rénovation plomberie</option><option>Autre</option>
+      </select>
+    </label>
+    <label>Votre ville
+      <input id="v" type="text" placeholder="Ex : votre commune" autocomplete="address-level2">
+    </label>
+    <button class="btn send" type="submit">✉️ Demander un devis par SMS</button>
+  </form>
+  <p class="note">Le bouton ouvre votre messagerie avec le message déjà rédigé.</p>
+</section>
+
+<footer>
+  Ce site est un service de mise en relation. Les travaux sont réalisés, facturés et garantis par des artisans plombiers indépendants, qui remettent leur propre devis. Nous ne réalisons pas les interventions.
+</footer>
+</div>
+
+<div class="bar"><a class="btn call" href="tel:+33756837009">📞 Appeler maintenant</a></div>
+
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  var t=document.getElementById('t').value,v=document.getElementById('v').value.trim();
+  var m='Bonjour, je souhaite un devis plomberie : '+t+(v?' à '+v:'')+'.';
+  window.location.href='sms:+33756837009?&body='+encodeURIComponent(m);
+});
+</script>
+</body>
+</html>
